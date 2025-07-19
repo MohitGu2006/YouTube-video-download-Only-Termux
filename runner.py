@@ -4,8 +4,8 @@ print("📥 Downloading protected MOHIT Downloader...")
 
 # Download files
 os.system("curl -O https://raw.githubusercontent.com/MohitGu2006/YouTube-video-download-Only-Termux/main/main.py")
-os.system("curl -O https://raw.githubusercontent.com/MohitGu2006/YouTube-video-download-Only-Termux/main/pyarmor_runtime_000000/__init__.py")
-os.system("curl -O https://raw.githubusercontent.com/MohitGu2006/YouTube-video-download-Only-Termux/main/pyarmor_runtime_000000/pyarmor_runtime.py")
+os.system("curl -O https://github.com/MohitGu2006/YouTube-video-download-Only-Termux/blob/main/pyarmor_runtime_000000/__init__.py")
+os.system("curl -O https://github.com/MohitGu2006/YouTube-video-download-Only-Termux/blob/main/pyarmor_runtime_000000/pyarmor_runtime.pyd")
 
 # Setup runtime folder
 os.makedirs("pyarmor_runtime_000000", exist_ok=True)
