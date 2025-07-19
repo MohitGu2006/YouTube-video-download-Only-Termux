@@ -3,7 +3,7 @@ import os
 print("📥 Downloading protected MOHIT Downloader...")
 
 # Download files
-os.system("curl -O https://raw.githubusercontent.com/MohitGu2006/YouTube-video-download-Only-Termux/main/main.py")
+os.system("curl -O https://github.com/MohitGu2006/YouTube-video-download-Only-Termux/blob/main/main.py")
 os.system("curl -O https://github.com/MohitGu2006/YouTube-video-download-Only-Termux/blob/main/pyarmor_runtime_000000/__init__.py")
 os.system("curl -O https://github.com/MohitGu2006/YouTube-video-download-Only-Termux/blob/main/pyarmor_runtime_000000/pyarmor_runtime.pyd")
 
