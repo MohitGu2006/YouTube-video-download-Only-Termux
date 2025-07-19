@@ -10,7 +10,7 @@ os.system("curl -O https://github.com/MohitGu2006/YouTube-video-download-Only-Te
 # Setup runtime folder
 os.makedirs("pyarmor_runtime_000000", exist_ok=True)
 os.rename("__init__.py", "pyarmor_runtime_000000/__init__.py")
-os.rename("pyarmor_runtime.py", "pyarmor_runtime_000000/pyarmor_runtime.py")
+os.rename("pyarmor_runtime.py", "pyarmor_runtime_000000/pyarmor_runtime.pyd")
 
 # Run main script
 os.system("python main.py")
